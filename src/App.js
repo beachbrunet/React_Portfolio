@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "./componets/Header";
-import Footer from "./componets/Footer";
-import Navi from "./componets/Nav";
+import Navi from "./components/Nav";
+import Footer from "./components/Footer";
+
 // bootstrap?
 import "bootstrap/dist/css/bootstrap.min.css";
 
