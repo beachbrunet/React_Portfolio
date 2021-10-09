@@ -1,9 +1,9 @@
 import React from "react";
 import Header from "./componets/Header";
-import Header from "./componets/Footer";
-import Header from "./App.css";
+import Footer from "./componets/Footer";
+import Navi from "./componets/Nav";
 // bootstrap?
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
