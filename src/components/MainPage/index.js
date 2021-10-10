@@ -1,6 +1,7 @@
 // about me
 import React from "react";
 import "./home.css";
+import image from "../../assets/catherine.jpeg";
 
 const home = () => {
   return (
@@ -9,6 +10,7 @@ const home = () => {
         <h1 className=""> Catherine Cox </h1>
       </div>
       <p>
+        <img src={image} width="100" />
         Pursuing a career as a full stack developer is a long journey filled
         with self improvement. University of Denver has provided a wonderful
         opportunity with knowledgeable instructors,supportive community and
