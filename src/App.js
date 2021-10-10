@@ -11,8 +11,8 @@ function App() {
     <div>
       <Nav />
       <MainPage />
-      {/* <Route exact path="/Resume"></Route>
-      <Route exact path="/Resume"></Route> */}
+      <Route exact path="/Contact"></Route>
+      {/* <Route exact path="/Resume"></Route> */}
     </div>
   );
 }

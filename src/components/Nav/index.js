@@ -24,11 +24,11 @@ const Navbar = () => {
       </Nav.Item>
       {/* Contact */}
       <Nav.Item>
-        <Nav.Link eventKey="contact">Contact</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
       </Nav.Item>
       {/* Resume */}
       <Nav.Item>
-        <Nav.Link eventKey="resume">Resume</Nav.Link>
+        <Nav.Link href="/resume">Resume</Nav.Link>
       </Nav.Item>
     </Nav>
   );
