@@ -1,6 +1,7 @@
 import React from "react";
-import Navi from "./components/Nav";
-import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import MainPage from "./components/MainPage";
+// import Footer from "./components/Footer";
 
 // bootstrap?
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,8 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <Nav />
+      <MainPage />
     </div>
   );
 }
