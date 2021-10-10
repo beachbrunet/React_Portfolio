@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 // import { validateEmail } from "../../utils/helpers";
+// currently no back end to make
 
 const contactPage = () => {
   return (
