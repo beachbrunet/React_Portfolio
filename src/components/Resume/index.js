@@ -1,7 +1,7 @@
 import React from "react";
 import Resume from "../../assets/olderResume.pdf";
 
-const resume = () => {
+const resumePage = () => {
   return (
     <div class="container">
       <h2 className="top-title">Resume</h2>
@@ -28,4 +28,4 @@ const resume = () => {
     </div>
   );
 };
-export default resume;
+export default resumePage;
