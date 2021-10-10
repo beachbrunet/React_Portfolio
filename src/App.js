@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import MainPage from "./components/MainPage";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // bootstrap?
@@ -9,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <>
+    <div>
       <Nav />
       <Router>
         <Switch>
@@ -21,7 +22,8 @@ function App() {
           </Resume>
         </Switch>
       </Router>
-    </>
+      <Footer />
+    </div>
   );
 }
 
