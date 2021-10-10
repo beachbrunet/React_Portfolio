@@ -1,6 +1,6 @@
 import React from "react";
 
-const contactPage = () => {
+const resumePage = () => {
   return <h1> HELLO </h1>;
 };
-export default contactPage;
+export default resumePage;

@@ -3,7 +3,7 @@ import React from "react";
 import "./home.css";
 import image from "../../assets/catherine.jpeg";
 
-const home = () => {
+const homePage = () => {
   return (
     <section className="intro">
       <div className="col-md-5 mx-auto">
@@ -23,4 +23,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default homePage;

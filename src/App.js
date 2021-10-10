@@ -1,20 +1,32 @@
 import React from "react";
 import Nav from "./components/Nav";
 import MainPage from "./components/MainPage";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-// import Footer from "./components/Footer";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // bootstrap?
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
-      <MainPage />
-      <Route exact path="/Contact"></Route>
-      {/* <Route exact path="/Resume"></Route> */}
-    </div>
+      <Router>
+        <Switch>
+          <Route exact path={["/", "/MainPage"]}>
+            <MainPage />
+          </Route>
+
+          <Route exact path="/"></Route>
+
+          <Route exact path="/Contact">
+            <Contact />
+          </Route>
+          <Route exact path="/Resume">
+            <Resume />
+          </Route>
+        </Switch>
+      </Router>
+    </>
   );
 }
 
