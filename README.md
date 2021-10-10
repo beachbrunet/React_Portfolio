@@ -1,24 +1,18 @@
-# Getting Started with Create React App
+# Portfolio
+
+# First -- Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-# Fitness Tracker Workout
-
-A application to view, create, and track a daily workout regime. The user is able to log multiple excercises in a workout on any given day. Not only that but they are able to track the name, type, weight, sets, reps, and duration of that specific exercise.
 
 ## Requirements
 
 <!-- ----------------------- -->
 
 ```
-If you choose to accept your mission....
-Add exercises to the most recent workout plan.
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
 
-Add new exercises to a new workout plan.
-
-View the combined weight of multiple exercises from the past seven workouts on the stats page.
-
-View the total duration of each workout from the past seven workouts on the stats page.
 ```
 
 ## Screenshot
@@ -90,7 +84,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- ----------------------- -->
 
-[URL to the github repo](https://github.com/beachbrunet/Fitness_tracker_workout)
+[URL to the github repo](https://github.com/beachbrunet/React_Portfolio)
 
 ## Contributions and Contact Information
 
