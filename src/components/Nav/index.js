@@ -18,7 +18,9 @@ const Navbar = () => {
       </Nav.Item>
       {/* Github  */}
       <Nav.Item>
-        <Nav.Link eventKey="https://github.com/beachbrunet">Github</Nav.Link>
+        <Nav.Link href="https://github.com/beachbrunet" target="_blank">
+          Github
+        </Nav.Link>
       </Nav.Item>
       {/* Contact */}
       <Nav.Item>
