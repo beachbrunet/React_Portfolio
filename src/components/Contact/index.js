@@ -1,4 +1,5 @@
 import React from "react";
+import "./contact.css";
 // import { validateEmail } from "../../utils/helpers";
 
 const contactPage = () => {
@@ -33,7 +34,6 @@ const contactPage = () => {
           id="subject"
           name="subject"
           placeholder="Write something.."
-          style="height:200px"
         ></textarea>
 
         <input type="submit" value="Submit"></input>
