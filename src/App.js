@@ -17,13 +17,6 @@ function App() {
           </Route>
 
           <Route exact path="/"></Route>
-
-          <Route exact path="/Contact">
-            <Contact />
-          </Route>
-          <Route exact path="/Resume">
-            <Resume />
-          </Route>
         </Switch>
       </Router>
     </>
@@ -31,3 +24,12 @@ function App() {
 }
 
 export default App;
+
+{
+  /* <Route exact path="/Contact">
+<Contact />
+</Route>
+<Route exact path="/Resume">
+<Resume />
+</Route> */
+}
