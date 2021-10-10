@@ -10,7 +10,7 @@ const homePage = () => {
         <h1 className=""> Catherine Cox </h1>
       </div>
       <p>
-        <img src={image} width="100" />
+        <img src={image} width="100" alt="profile pic" />
         Pursuing a career as a full stack developer is a long journey filled
         with self improvement. University of Denver has provided a wonderful
         opportunity with knowledgeable instructors,supportive community and

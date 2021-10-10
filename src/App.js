@@ -1,7 +1,8 @@
 import React from "react";
 import Nav from "./components/Nav";
 import MainPage from "./components/MainPage";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Resume from "./components/Resume";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // bootstrap?
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,8 +16,9 @@ function App() {
           <Route exact path={["/", "/MainPage"]}>
             <MainPage />
           </Route>
-
-          <Route exact path="/"></Route>
+          <Resume>
+            <Route exact path="/Resume"></Route>
+          </Resume>
         </Switch>
       </Router>
     </>
@@ -24,12 +26,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <Route exact path="/Contact">
-<Contact />
-</Route>
-<Route exact path="/Resume">
-<Resume />
-</Route> */
-}
