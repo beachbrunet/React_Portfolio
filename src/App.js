@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import MainPage from "./components/MainPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 // import Footer from "./components/Footer";
 
 // bootstrap?

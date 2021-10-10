@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Nav fill variant="tabs" defaultActiveKey="/home">
       <Nav.Item>
-        <Nav.Link href="/home">Home</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
       </Nav.Item>
       {/* LinkedIn*/}
       <Nav.Item>
