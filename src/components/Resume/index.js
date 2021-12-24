@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/olderResume.pdf";
+// import Resume from "";
 
 const resumePage = () => {
   return (
@@ -22,9 +22,6 @@ const resumePage = () => {
           </ul>
         </h6>
       </ul>
-      <h1>
-        <img src={Resume} alt=" " />
-      </h1>
     </div>
   );
 };
