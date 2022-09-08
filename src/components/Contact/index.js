@@ -29,6 +29,9 @@ const contactPage = () => {
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname"></input>
 
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company"></input>
+
         <label for="country">Country</label>
         <select id="country" name="country">
           <option value="australia">Australia</option>

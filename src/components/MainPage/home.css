@@ -1,6 +1,9 @@
 img {
   float: left;
 }
+h1 {
+  text-align: center;
+}
 /* 
 section {
   background-color: black;

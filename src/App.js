@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import MainPage from "./components/MainPage";
 import Resume from "./components/Resume";
-// import { Document, Page } from "react-pdf";
+// import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/Resume">
             <Resume />
           </Route>
-
           <Route exact path="/Contact">
             <Contact />
           </Route>
