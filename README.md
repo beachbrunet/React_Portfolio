@@ -40,6 +40,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 - [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)<br />
   command-line: `npm i react-router-dom`
 
+- [React PDF](https://www.npmjs.com/package/react-pdf)<br />
+  command-line: `npm i react-pdf`
+
 ## Helpful Links
 
 ## Learn More
