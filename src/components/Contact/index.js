@@ -5,10 +5,11 @@ import "./contact.css";
 
 // To prevent submiting empty feilds
 const contactPage = () => {
-  function App() {
+  function empty() {
     const onSubmit = (event) => {
       event.preventDefault();
-      console.log("submission prevented");
+      alert("Please fill out all the");
+      return false;
     };
 
     return (
@@ -34,9 +35,9 @@ const contactPage = () => {
 
         <label for="country">Country</label>
         <select id="country" name="country">
+          <option value="usa">USA</option>
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
-          <option value="usa">USA</option>
         </select>
 
         <label for="subject">Message</label>

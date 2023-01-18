@@ -1,26 +1,30 @@
 // about me
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "./home.css";
 import image from "../../assets/catherine.jpeg";
+// import backgroundImage from "../../assets/Abstract background.jpeg";
 
-const homePage = () => {
+function homePage() {
   return (
-    <section className="intro">
-      <div className="col-md-5 mx-auto">
-        <h1 className=""> Catherine Cox </h1>
-      </div>
-      <p>
-        <img src={image} width="100" alt="profile pic" />
-        Pursuing a career as a full stack developer is a long journey filled
-        with self improvement. University of Denver has provided a wonderful
-        opportunity with knowledgeable instructors,supportive community and
-        relative and challenging curriculum. This course along with college
-        courses has prepared me to build upon my foundation to be a successful
-        full stack developer! Pursuing a career as a full stack developer is a
-        long journey filled with self improvement.
-      </p>
-    </section>
+    <Container>
+      <Row>
+        <Col sm={8}>
+          Image goes here
+          <img src={image} width="100" alt="profile pic" />
+        </Col>
+
+        <Col sm={4}>Contavt</Col>
+      </Row>
+      <Row>
+        <Col sm> Skills here</Col>
+        <Col sm> About me Summary</Col>
+        <Col sm>Possibly certificate?</Col>
+      </Row>
+    </Container>
   );
-};
+}
 
 export default homePage;
