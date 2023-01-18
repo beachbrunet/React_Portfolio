@@ -4,10 +4,20 @@ import "./home.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import doSomething from "../SkillsBar";
+import SkillBar from "react-skillbars";
 
 import image from "../../assets/catherine.jpeg";
 // import backgroundImage from "../../assets/Abstract background.jpeg";
+
+const mySkills = [
+  { type: "Java", level: 100 },
+  { type: "React", level: 85 },
+  { type: "Javascript", level: 75 },
+  { type: "Spring", level: 50 },
+  { type: "Docker", level: 25 },
+  { type: "HTML", level: 20 },
+  { type: "NoSQL", level: 0 },
+];
 
 function homePage() {
   return (
@@ -29,7 +39,10 @@ function homePage() {
       </Row>
       <Row>
         {/* skill bar should display here */}
-        <Col sm> doSomething here </Col>
+        <Col sm>
+          {" "}
+          <SkillBar skills={mySkills} />{" "}
+        </Col>
 
         <Col lg> About me Summary</Col>
         <Col sm>Possibly certificate?</Col>
