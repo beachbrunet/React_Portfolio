@@ -1,12 +1,5 @@
-/* img {
-  float: left;
-}
-h1 {
-  text-align: center;
-}
+.container {
+ font-family: monospace;
+ font-size: 20px
 
-p {
-
-  text-indent: 50px;
-  white-space: wrap;
-} */
+}
