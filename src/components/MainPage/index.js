@@ -4,7 +4,7 @@ import "./home.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import { SkillsBar } from "Skills Bar";
+import doSomething from "../SkillsBar";
 
 import image from "../../assets/catherine.jpeg";
 // import backgroundImage from "../../assets/Abstract background.jpeg";
@@ -29,7 +29,7 @@ function homePage() {
       </Row>
       <Row>
         {/* skill bar should display here */}
-        <Col sm>skills</Col>
+        <Col sm> doSomething here </Col>
 
         <Col lg> About me Summary</Col>
         <Col sm>Possibly certificate?</Col>

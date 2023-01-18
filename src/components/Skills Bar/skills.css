@@ -1,8 +1,0 @@
-const colors = {
-    bar: {
-      hue: 0,
-      saturation: 50,
-      level: {
-        minimum: 80,
-        maximum: 100
-      }
