@@ -8,7 +8,7 @@ function darkNav() {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home"> {"<> "} Home</Navbar.Brand>
+          <Navbar.Brand href="/MainPage"> {"<> "} Home</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="https://github.com/beachbrunet" target="_blank">
               {" "}
@@ -21,7 +21,7 @@ function darkNav() {
               {" "}
               LinkedIn{" "}
             </Nav.Link>
-            <Nav.Link href="#Documents"> Documents {" </> "} </Nav.Link>
+            <Nav.Link href="/contact"> Contact {" </> "} </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
