@@ -10,14 +10,35 @@ import image from "../../assets/catherine.jpeg";
 // import backgroundImage from "../../assets/Abstract background.jpeg";
 
 const mySkills = [
-  { type: "Java", level: 100 },
-  { type: "React", level: 85 },
+  { type: "HTML5", level: 92 },
+  { type: "CSS3", level: 90 },
   { type: "Javascript", level: 75 },
-  { type: "Spring", level: 50 },
-  { type: "Docker", level: 25 },
-  { type: "HTML", level: 20 },
-  { type: "NoSQL", level: 0 },
+  { type: "React", level: 55 },
+  { type: "SQL", level: 60 },
+  { type: "MySQL", level: 45 },
+  { type: "Node.js", level: 65 },
+  { type: "JQuery", level: 40 },
 ];
+const colors = {
+  bar: {
+    hue: 32,
+    saturation: 50,
+    level: {
+      minimum: 30,
+      maximum: 70,
+    },
+  },
+  title: {
+    text: {
+      hue: 45,
+      saturation: {
+        minimum: 70,
+        maximum: 30,
+      },
+      level: 50,
+    },
+  },
+};
 
 function homePage() {
   return (
@@ -41,7 +62,7 @@ function homePage() {
         {/* skill bar should display here */}
         <Col sm>
           {" "}
-          <SkillBar skills={mySkills} />{" "}
+          <SkillBar skills={mySkills} colors={colors} />
         </Col>
 
         <Col lg> About me Summary</Col>
