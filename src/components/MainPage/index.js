@@ -21,21 +21,11 @@ const mySkills = [
 ];
 const colors = {
   bar: {
-    hue: 32,
+    hue: 0,
     saturation: 50,
     level: {
-      minimum: 30,
-      maximum: 70,
-    },
-  },
-  title: {
-    text: {
-      hue: 45,
-      saturation: {
-        minimum: 70,
-        maximum: 30,
-      },
-      level: 50,
+      minimum: 80,
+      maximum: 100,
     },
   },
 };
@@ -65,7 +55,12 @@ function homePage() {
           <SkillBar skills={mySkills} colors={colors} />
         </Col>
 
-        <Col lg> About me Summary</Col>
+        <Col lg>
+          My thirst to learn and problem solve has always been a driving factor
+          in all aspects of my life, that goes for the new experience as a
+          Junior developer. I enjoy working with a team and developing skills
+          that I can benift not only myself but others around me.
+        </Col>
         <Col sm>Possibly certificate?</Col>
       </Row>
     </Container>
