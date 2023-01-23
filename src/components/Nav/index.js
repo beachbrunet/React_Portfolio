@@ -10,10 +10,14 @@ function darkNav() {
         <Container>
           <Navbar.Brand href="/MainPage"> {"<> "} Home</Navbar.Brand>
           <Nav className="me-auto">
+            <Nav.Link href="/Docs"> Documents </Nav.Link>
+            {/* nothing linked in */}
+            <Nav.Link href="/Projects"> Projects</Nav.Link>
             <Nav.Link href="https://github.com/beachbrunet" target="_blank">
               {" "}
               Github{" "}
             </Nav.Link>
+
             <Nav.Link
               href="https://www.linkedin.com/in/catherine-cox-433061128/"
               target="_blank"
@@ -21,6 +25,7 @@ function darkNav() {
               {" "}
               LinkedIn{" "}
             </Nav.Link>
+
             <Nav.Link href="/contact"> Contact {" </> "} </Nav.Link>
           </Nav>
         </Container>
@@ -31,4 +36,7 @@ function darkNav() {
 
 export default darkNav;
 
-// export default Navbar;
+// <Nav.Link href="#documents" target="_blank">
+//   {" "}
+//   Documents{" "}
+// </Nav.Link>;
