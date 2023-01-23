@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import MainPage from "./components/MainPage";
-import Resume from "./components/Resume";
+import Docs from "./components/Docs";
 // import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
@@ -19,8 +19,8 @@ function App() {
           <Route exact path={["/", "/MainPage"]}>
             <MainPage />
           </Route>
-          <Route exact path="/Resume">
-            <Resume />
+          <Route exact path="/Docs">
+            <Docs />
           </Route>
           <Route exact path="/Contact">
             <Contact />

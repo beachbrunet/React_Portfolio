@@ -19,13 +19,25 @@ const mySkills = [
   { type: "Node.js", level: 65 },
   { type: "JQuery", level: 40 },
 ];
+// edit colors for skills bar
 const colors = {
-  bar: {
-    hue: 0,
-    saturation: 50,
-    level: {
-      minimum: 80,
-      maximum: 100,
+  bar: "#364B63",
+  title: {
+    text: {
+      hue: {
+        minimum: 30,
+        maximum: 30,
+      },
+      saturation: 500,
+      level: {
+        minimum: 900,
+        maximum: 900,
+      },
+    },
+    background: {
+      hue: 550,
+      saturation: 40,
+      level: 40,
     },
   },
 };
