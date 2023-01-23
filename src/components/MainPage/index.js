@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import SkillBar from "react-skillbars";
 
 import image from "../../assets/catherine.jpeg";
+import imageCert from "../../assets/cert.png";
 // import backgroundImage from "../../assets/Abstract background.jpeg";
 
 const mySkills = [
@@ -70,18 +71,18 @@ function homePage() {
         <Col lg>
           My thirst to learn and problem solve has always been a driving factor
           in all aspects of my life, that goes for the new experience as a
-          Junior developer. I enjoy working with a team and developing skills
-          that I can benift not only myself but others around me.
+          Junior Software Developer. I enjoy collaborating with team members to
+          gain new perspectives and provide ingenuity. Tired of Senior
+          Developers set in their ways? Well look no further, because, what is
+          better than a moldable mind to form to your team?
         </Col>
-        <Col sm>Possibly certificate?</Col>
+        <Col>
+          {" "}
+          <img src={imageCert} width="500" alt="cert" />
+        </Col>
       </Row>
     </Container>
   );
 }
 
 export default homePage;
-
-// Full-stack Web Developer that graduated from Denver University's Coding Boot Camp in mid October. The program specialized in Full-Stack Web Development covering a variety of topics as well as the rising popularity of React. Currently striving for a Bachelor's Degree to further my education in Software Development utilizing Denver University's working degree program during the evenings and plan to graduate in June of 2024. I have enjoyed both aspects of the front-end and back-end, but found the front end aspect of development enjoyable.
-// My previous life experience under my belt before obtaining my certificate, I brought a refreshing understanding of company culture and customer responsibilities to the position; which required me to be organized, motivated and making me that much eager to apply my skills at a job in the software development industry.
-// The certified course and the previous work experiences have polished my skills working with a team, as well as excel in individual projects where I need to be able to manage my time and resources to meet company requirements for project time and budget. Enjoying the aspects of on-the- job learning, problem-solving, and unique friendly approaches.
-// As you're new potentially organized and motivated employee eager to apply time management and organizational skills in various environments. Seeking entry-level opportunities to expand skills while facilitating company growth.
