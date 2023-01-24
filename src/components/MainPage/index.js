@@ -8,16 +8,15 @@ import SkillBar from "react-skillbars";
 
 import image from "../../assets/catherine.jpeg";
 import imageCert from "../../assets/cert.png";
-// import backgroundImage from "../../assets/Abstract background.jpeg";
 
 const mySkills = [
   { type: "HTML5", level: 92 },
   { type: "CSS3", level: 90 },
   { type: "Javascript", level: 75 },
-  { type: "React", level: 55 },
+  { type: "React", level: 60 },
   { type: "SQL", level: 60 },
-  { type: "MySQL", level: 45 },
-  { type: "Node.js", level: 65 },
+  { type: "MySQL", level: 60 },
+  { type: "Node.js", level: 55 },
   { type: "JQuery", level: 40 },
 ];
 // edit colors for skills bar
@@ -25,10 +24,7 @@ const colors = {
   bar: "#364B63",
   title: {
     text: {
-      hue: {
-        minimum: 30,
-        maximum: 30,
-      },
+      hue: 0,
       saturation: 500,
       level: {
         minimum: 900,
@@ -49,7 +45,7 @@ function homePage() {
       <Row>
         {/* image */}
         <Col sm={4}>
-          <img src={image} width="200" alt="profile pic" />
+          <img src={image} width="300" alt="profile pic" />
         </Col>
         {/* Contact info Col */}
         <Col sm={4}>
@@ -64,7 +60,6 @@ function homePage() {
       <Row>
         {/* skill bar should display here */}
         <Col sm>
-          {" "}
           <SkillBar skills={mySkills} colors={colors} />
         </Col>
 
@@ -77,7 +72,6 @@ function homePage() {
           better than a moldable mind to form to your team?
         </Col>
         <Col>
-          {" "}
           <img src={imageCert} width="500" alt="cert" />
         </Col>
       </Row>

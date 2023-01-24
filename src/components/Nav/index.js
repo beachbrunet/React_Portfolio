@@ -1,5 +1,4 @@
 import React from "react";
-import "./nav.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -36,8 +35,3 @@ function darkNav() {
 }
 
 export default darkNav;
-
-// <Nav.Link href="#documents" target="_blank">
-//   {" "}
-//   Documents{" "}
-// </Nav.Link>;
