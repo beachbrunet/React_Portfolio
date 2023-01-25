@@ -1,11 +1,13 @@
 // about me
 import React from "react";
 import "./home.css";
+// layouts
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+// skillbar
 import SkillBar from "react-skillbars";
-
+// Images
 import image from "../../assets/catherine.jpeg";
 import imageCert from "../../assets/cert.png";
 
@@ -49,7 +51,7 @@ function homePage() {
         </Col>
         {/* Contact info Col */}
         <Col sm={4}>
-          <ul>
+          <ul class="contact-info">
             <li> Name: Catherine Cox </li>
             <li> Profile: Full Stack Junior Developer </li>
             <li> Email: ccox.034@gmail.com </li>
@@ -62,8 +64,12 @@ function homePage() {
         <Col sm>
           <SkillBar skills={mySkills} colors={colors} />
         </Col>
-
+        {/* summary */}
         <Col lg>
+          <style>
+            @import
+            url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap');
+          </style>
           My thirst to learn and problem solve has always been a driving factor
           in all aspects of my life, that goes for the new experience as a
           Junior Software Developer. I enjoy collaborating with team members to

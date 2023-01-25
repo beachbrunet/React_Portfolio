@@ -1,6 +1,16 @@
 .container {
- font-family: monospace;
+font-family: 'Kanit', sans-serif;;
  font-size: 20px;
- padding: 10px;
+ padding: 40px;
  box-shadow: 5px 40px 500px #888888;
+}
+
+ul.contact-info {
+margin-top: 80px;
+padding: 30px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.col-sm{
+padding: 20px;
 }
