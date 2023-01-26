@@ -59,13 +59,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Heroku
+<!-- ## Heroku -->
 
 <!-- ----------------------- -->
 
-[Heroku](https://morning-basin-07177.herokuapp.com/)
+<!-- [Heroku](https://morning-basin-07177.herokuapp.com/) -->
 
-mysterious-river-96466
+<!-- mysterious-river-96466 -->
 
 ## Application
 
