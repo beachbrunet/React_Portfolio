@@ -8,12 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Screen Shot](./screenshot.png)
 
-## Technologies
-
-<!-- ----------------------- -->
-
-- React!
-
 ## Resources and Dependancies
 
 <!-- ----------------------- -->
@@ -29,6 +23,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [React PDF](https://www.npmjs.com/package/react-pdf)<br />
   command-line: `npm i react-pdf`
+
+- [Skills Bar](https://www.npmjs.com/package/react-skillbars)<br />
+  command-line: `npm i react-skillbars`
 
 ## Helpful Links
 
@@ -68,7 +65,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [Heroku](https://morning-basin-07177.herokuapp.com/)
 
-<!-- mysterious-river-96466 -->
+mysterious-river-96466
 
 ## Application
 
