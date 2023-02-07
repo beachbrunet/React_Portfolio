@@ -1,8 +1,8 @@
 .container {
-font-family: 'Kanit', sans-serif;
+font-family: 'Kanit', sans-serif;;
  font-size: 20px;
  padding: 40px;
- box-shadow: 5px 40px 500px #888888;
+ box-shadow: 5px 40px 500px #4b4848;
 }
 
 ul.contact-info {
