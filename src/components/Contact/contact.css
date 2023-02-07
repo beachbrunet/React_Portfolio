@@ -9,6 +9,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: 'Kanit', sans-serif;
 }
 
 input[type="submit"] {

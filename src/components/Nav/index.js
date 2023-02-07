@@ -6,6 +6,10 @@ import Navbar from "react-bootstrap/Navbar";
 function darkNav() {
   return (
     <>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,100&display=swap');
+      </style>
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="/MainPage"> {"<> "} Home</Navbar.Brand>
